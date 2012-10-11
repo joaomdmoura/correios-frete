@@ -5,7 +5,7 @@ require 'uri'
 module Correios
   module Frete
     class WebService
-      URL = "http://localhost:3000"
+      URL = "http://localhost:3000/lol/url_inexistente"
       FORMATS = { :caixa_pacote => 1, :rolo_prisma => 2, :envelope => 3 }
       CONDITIONS = { true => "S", false => "N" }
 
